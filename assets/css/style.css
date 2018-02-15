@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald',sans-serif;
+    background: #EEEDED;
+}
+a{
+    color: #24A7CF;
+}
+a:hover{
+    color: #24A7CF;
+    text-decoration: none;
+}
+.logo{
+    width: 30px;
+    padding-top: 10px;
+}
+.h_title {
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+navbar brand *{
+    color: #ffffff;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+.jumbotron #details{
+    position: absolute;
+    color: #fff;
+}
+.jumbotron #details span{
+    color: #24A7CF;
+}
+.jumbotron img{
+    width: 100%;
+}
+/*POST*/
+.post{
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    margin: 15px 0px;
+}
+.post .post-date{
+    padding: 10px;
+    text-align: center;
+}
+.post .post-date .day{
+    font-size: 30px;
+    color: #24A7CF;
+    
+}
+.post .post-date .year{
+    font-weight: 100;
+}
+.post .post-title{
+    padding:5px 20px 30px 20px;
+    border-left: 1px solid #E3E3E3;
+    
+}
+.post .post-title span{
+    color: #24A7CF;
+    font-weight: 100;
+}
+.post .profile-picture{
+    padding: 20px;
+}
+.post .profile-picture img{
+    width: 80%;
+}
+.post >a>img{
+    width: 100%;
+   
+}
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 10px;
+    line-height: 20px;
+}
+.post >a.btn{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.post .bottom{
+    padding:10px 20px;
+    border-top: 1px solid #E3E3E3;
+    color: #C6C6C6;
+    
+}
+
+.post .bottom .first{
+    margin-right: 20px;
+}
+.post .bottom .secend{
+    margin-left: 20px;
+}
+nav#pagination{
+    text-align: center;
+}
+.pagination>li>a{
+    color: #24A7CF;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+/* Widgets */
+section .widgets{
+    margin-bottom: 20px;
+}
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+.popular .details{
+    margin-left: -20px;
+}
+.popular .details p{
+    font-family: arial;
+    font-size: 11px;
+}
+.popular img{
+    width: 100%;
+    margin-top: 10px;
+}
+.popular ul li{
+    list-style: none;
+}
+.popular ul li{}
+/*Social icon*/
+.social{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+.social img{
+    width: 80px;
+    height: 80px;
+}
+/*Footer*/
+footer{
+    background: #000;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
